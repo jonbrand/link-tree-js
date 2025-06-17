@@ -1,0 +1,29 @@
+{
+  "name": "javascript-dev-container",
+  "version": "1.0.0",
+  "description": "Projeto simples para desenvolvimento JavaScript em Dev Container",
+  "main": "script.js",
+  "scripts": {
+    "start": "npx live-server public --port=3000 --host=0.0.0.0",
+    "dev": "npx live-server public--port=3000 --host=0.0.0.0 --watch=.",
+    "format": "npx prettier --write .",
+    "format-check": "npx prettier --check ."
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css",
+    "devcontainer",
+    "development"
+  ],
+  "author": "Desenvolvedor",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^3.0.0"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ]
+}
