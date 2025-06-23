@@ -57,6 +57,8 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  padding: 24px 0px;
 }
 
 li {
@@ -88,10 +90,10 @@ a {
 
 .container_social_media {
   display: flex;
-  padding: 24px;
+  padding: 24px 0px;
   justify-content: center;
 
-  gap: 16px;
+  gap: 32px;
 }
 
 ion-icon {
