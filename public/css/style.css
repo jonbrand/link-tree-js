@@ -47,6 +47,9 @@ body {
 }
 
 .container_switch {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
 }
 
 .container_button_links,
@@ -85,6 +88,17 @@ a {
 
 .container_social_media {
   display: flex;
-  flex-direction: row;
-  gap: 12px;
+  padding: 24px;
+  justify-content: center;
+
+  gap: 16px;
+}
+
+ion-icon {
+  font-size: 24px;
+}
+
+.container_footer {
+  display: flex;
+  justify-content: center;
 }
